@@ -1,0 +1,1 @@
+function select_option(){const n=MAIN_BOX_CONTENTS_CONFIG.length,t=event.target.id;dom_map_nthu.style.display="none";for(let e=0;e<n;e++)SIDEBAR_OPTIONS_CONFIG[e]==t?dom_main_box_contents[e].style.display="flex":dom_main_box_contents[e].style.display="none"}

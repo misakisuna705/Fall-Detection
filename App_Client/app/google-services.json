@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "540848496258",
+    "firebase_url": "https://fall-detection-misakisuna.firebaseio.com",
+    "project_id": "fall-detection-misakisuna",
+    "storage_bucket": "fall-detection-misakisuna.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540848496258:android:dcc2287bf6f956a57c5e9b",
+        "android_client_info": {
+          "package_name": "com.example.app_client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540848496258-hdjgi9888askvav33kkt8g8sjljglfns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9fShiITpz1xg9cHCLdF7pJ9-i_aHd3EE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540848496258-hdjgi9888askvav33kkt8g8sjljglfns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

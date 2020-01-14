@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="h-100" lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Web-Center</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPqqCNoBOwPOrGtKK-6d8LM8fLwrfSheg"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="script.min.js"></script>
+  </head>
+
+  <body class="h-100">
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Web Center</a>
+
+      <button class="navbar-toggler p-0 border-0" type="button" data-toggle="collapse" data-target="#navbartogglelist">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbartogglelist">
+        <ul class="navbar-nav">
+          <li>
+            <div class="flex-column" id="navbar_menu">
+              <a class="nav-link" id="navbar_event_detection">事件偵測</a>
+              <a class="nav-link" id="navbar_warning_statistics">示警統計</a>
+              <a class="nav-link" id="navbar_danger_statistics">危險統計</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="d-flex" id="main_block">
+      <nav class="btn-group-vertical w-25" id="sidebar_menu" role="group">
+        <button class="btn btn-secondary" id="sidebar_event_detection" type="button">事件偵測</button>
+        <button class="btn btn-secondary" id="sidebar_warning_statistics" type="button">示警統計</button>
+        <button class="btn btn-secondary" id="sidebar_danger_statistics" type="button">危險統計</button>
+      </nav>
+
+      <div class="container" id="main_box">
+        <div class="h-100" id="map_nthu"></div>
+        <div class="h-100 map" id="map_event_detection"></div>
+        <div class="h-100 map" id="map_warning_statistics"></div>
+        <div class="h-100 map" id="map_danger_statistics"></div>
+      </div>
+    </div>
+  </body>
+</html>

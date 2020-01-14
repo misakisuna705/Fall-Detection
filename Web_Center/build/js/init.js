@@ -1,0 +1,1 @@
+firebase.initializeApp(FIREBASE_CONFIG),window.addEventListener("DOMContentLoaded",()=>{get_dom(),set_rwd(),set_maps(),window.addEventListener("resize",set_rwd,!1),dom_navbar_menu.addEventListener("click",select_option,!1),dom_sidebar_menu.addEventListener("click",select_option,!1)},!1);

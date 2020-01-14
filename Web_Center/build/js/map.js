@@ -1,0 +1,1 @@
+function set_maps(){const t=google.maps,e=new t.Map(dom_map_nthu,MAP_CONFIG),s=SAVERS_CONFIG.length,n=[];for(let i=0;i<s;i++)n[i]=new t.Marker({map:e,title:SAVERS_CONFIG[i].title,position:SAVERS_CONFIG[i].position,icon:"https://maps.google.com/mapfiles/ms/micons/blue.png"});set_event_detection_map(),set_warning_statistics_map(),set_danger_statistics_map()}
